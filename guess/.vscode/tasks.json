@@ -4,16 +4,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build adder",
+            "label": "build guess",
             "type": "shell",
             "command": "gcc",
 
-            "args":
-            [
+            "args":[
                 "-g",
                 "-o",
-                "adder",
-                "adder.c"
+                "guess",
+                "guess.c"
+                
             ],
 
             "group": {
