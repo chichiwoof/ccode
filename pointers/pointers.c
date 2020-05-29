@@ -3,15 +3,33 @@
 
 int main()
 {
-    int num = 150;
-    int *pNum = NULL;
+    int i = 10;
+    float f = 2.34;
+    char ch = 'k';
+    void *vptr;
 
-    pNum = &num;
+    vptr = &i;
+    printf("Value of i = %d\n", *(int *)vptr);
 
-    printf("num address is: %p\n", &num);
-    printf("Value of pNum: %p\n", &pNum);
-    printf("value of the pNum: %p\n", pNum);
-    printf("value of what pNum is pointing to %d\n", *pNum);
+    vptr = &f;
+    printf("Value of f = %f\n", *(float *)vptr);
+
+    vptr = &ch;
+    printf("Value of ch = %c\n", *(char *)vptr);
+
+
+
+
+
+    // int num = 150;
+    // int *pNum = NULL;
+
+    // pNum = &num;
+
+    // printf("num address is: %p\n", &num);
+    // printf("Value of pNum: %p\n", &pNum);
+    // printf("value of the pNum: %p\n", pNum);
+    // printf("value of what pNum is pointing to %d\n", *pNum);
     
     return 0;
 }

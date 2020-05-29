@@ -11,8 +11,8 @@
             [
                 "-g",
                 "-o",
-                "pointers",
-                "pointers.c"
+                "squarer",
+                "squarer.c"
             ],
             "group": {
                 "kind": "build",
